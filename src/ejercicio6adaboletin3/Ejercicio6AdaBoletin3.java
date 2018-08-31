@@ -24,6 +24,12 @@ public class Ejercicio6AdaBoletin3 {
         // Realizar un programa que nos pida un número n, 
         // y nos diga cuantos números hay entre 1 y n que son primos. 
         
+        // Creo el objeto entrada de la clase Scanner
+        
+        Scanner entrada = new Scanner (System.in);
+        
+        
+        
         
     }
     
