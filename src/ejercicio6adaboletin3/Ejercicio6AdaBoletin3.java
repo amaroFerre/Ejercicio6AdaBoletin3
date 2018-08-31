@@ -5,6 +5,9 @@
  */
 package ejercicio6adaboletin3;
 
+// Importo la clase java.util.* para utilizar Scanner
+
+import java.util.*;
 
 /**
  *
