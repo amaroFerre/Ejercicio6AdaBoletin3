@@ -6,7 +6,6 @@
 package ejercicio6adaboletin3;
 
 // Importo la clase java.util.* para utilizar Scanner
-
 import java.util.*;
 
 /**
@@ -20,17 +19,28 @@ public class Ejercicio6AdaBoletin3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         // Realizar un programa que nos pida un número n, 
         // y nos diga cuantos números hay entre 1 y n que son primos. 
-        
         // Creo el objeto entrada de la clase Scanner
-        
-        Scanner entrada = new Scanner (System.in);
-        
-        
-        
-        
+        Scanner entrada = new Scanner(System.in);
+
+        // creo las variables 
+        int n;
+
+        int contador = 0;
+
+        System.out.println("Introduce un número");
+
+        n = entrada.nextInt();
+
+        for (int i = 0; i <= n; i++) {
+
+            // Muestra los números que hay entre n y entre i
+            System.out.println(contador++);
+
+        }
+
     }
-    
+
 }
